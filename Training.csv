@@ -1,0 +1,301 @@
+Disease,Symptoms
+Sinusitis,watery eyes;isolation;nasal congestion;tooth pain;cough;bad breath;nausea;fever;facial flushing;cheek tenderness;burning after eating;facial pain;forehead pain
+Dengue,chills;easy bruising;nausea;joint pain;mood changes
+Bronchitis,sinus pressure;chills;shortness of breath;throat irritation;difficulty concentrating
+Diabetes,loss of interest;blurred vision;nausea;frequent urination;irritability;hunger;headache;dark skin patches
+Tuberculosis,productive cough;chest pain;shortness of breath;rapid heartbeat;tooth pain;headache;weakness
+Tuberculosis,fever;weakness;back pain;pale skin;pressure in bladder;slowed thinking;swollen glands
+Sinusitis,throbbing head pain;fast heartbeat;bone pain;facial pain;hoarseness;cheek tenderness;postnasal drip
+Hypertension,nausea;gastric discomfort;lightheadedness;buzzing in ears;vision changes;throbbing head pain
+Diabetes,visual disturbances;tingling feet;dark skin patches;blurred thinking;dry mouth
+Gastritis,upper stomach pain;bloating;loss of taste;back pain;anxiety;fatigue;headache;belching;flatulence;abdominal pain;sour taste
+Malaria,silent chest;chills;night sweats;fatigue;severe headache;fever;confusion;dark urine
+Urinary Tract Infection (UTI),dry cough;pelvic pain;incomplete emptying;nausea;tingling hands;cloudy urine;frequent urination;pain during intercourse;dark urine
+Tuberculosis,shortness of breath;increased thirst;joint pain;nausea;chest pain;burning urination;back pain;facial pain
+Urinary Tract Infection (UTI),lower abdominal pain;pain during intercourse;dark urine;dizziness;cheek tenderness;vomiting;blood in urine;urine leakage;burning urination;lower back pain
+Gastritis,gastric discomfort;upper stomach pain;burning after eating;throbbing head pain;hiccups;indigestion;nausea;belching
+Tuberculosis,prolonged cough;social withdrawal;productive cough;sore throat;fatigue;nausea;persistent cough;fever
+Asthma,nasal congestion;frequent urination;mucus production;hiccups;silent chest;chest tightness;swollen glands;trouble sleeping;chest discomfort;tight throat;persistent cough
+Sinusitis,fast heartbeat;nasal congestion;blurred thinking;fever;sinus pressure;headache;forehead pain
+Bronchitis,throat irritation;frequent urination;eye pain;chest discomfort;temperature fluctuations;difficulty sleeping;wheezing;headache;sinus pressure;body aches
+Depression,abdominal pain;fatigue;persistent sadness;lack of motivation;facial pain;suicidal thoughts;weight changes;loss of interest
+Migraine,vomiting;scalp tenderness;confusion;blurred vision;visual disturbances;tight throat;aura;sensitivity to light;nausea
+Anemia,pale gums;hair thinning;craving ice;fatigue;anxiety;irritability
+Malaria,confusion;triggered by cold air;anemia;headache;nausea;jaundice;sweating;loss of appetite;back pain;abdominal pain
+Malaria,headache;low blood pressure;nausea;confusion;anemia;body aches;loss of smell;loss of interest;nosebleed
+Hypertension,blood in urine;headache;buzzing in ears;blurred vision;nausea;dizziness;chest pain;urgent bowel movements;sweating;palpitations
+Gastroenteritis,abdominal cramps;muscle aches;fatigue;urgent bowel movements;difficulty sleeping;gas;pulsating pain
+Asthma,shortness of breath;fatigue;nausea;eye pain;chest tightness;silent chest;frequent respiratory infections
+Asthma,persistent cough;difficulty exhaling;throbbing head pain;restlessness;wheezing;pale lips;tight throat;bloating;headache;confusion (elderly);breathlessness;nasal congestion
+Depression,sleep disturbances;mild fever;lack of motivation;restlessness;chronic pain;difficulty concentrating;fatigue;dizziness;suicidal thoughts;hopelessness
+Malaria,headache;dizziness;confusion;vomiting;shivering;rapid heartbeat;frequent urination;sweating;stomach rumbling
+Diabetes,frequent infections;dry mouth;fatigue;unintended weight loss;skin infections;fever;dark skin patches;blurred vision;hunger;tight chest
+Depression,persistent sadness;social withdrawal;sleep disturbances;weight changes;muscle aches;tearfulness;fatigue
+Gastroenteritis,diarrhea;vomiting;fatigue;loss of appetite;throbbing head pain;pale lips;urgent bowel movements;suicidal thoughts
+Gastroenteritis,fever;fatigue;mild fever;stomach rumbling;nausea;dry mouth;dehydration;diarrhea;gas;persistent cough
+Sinusitis,nasal congestion;fatigue;facial swelling;forehead pain;headache;body aches;loss of smell;coughing at night;runny nose;suicidal thoughts
+Anemia,irritability;sweating;chest pain;fever;brittle nails;shortness of breath;weakness;tight chest;headache;craving ice;numbness
+Diabetes,dizziness;hunger;pale skin;dehydration;blurred thinking;numbness;frequent infections;vision changes;sweet-smelling breath
+Hypertension,insomnia;restlessness;facial flushing;fatigue;triggered by cold air;weight changes;buzzing in ears;headache
+Urinary Tract Infection (UTI),diarrhea;fatigue;pelvic pain;blood in urine;chills;fever;nausea;urine urgency;confusion (elderly)
+Migraine,trouble sleeping;nausea;fatigue;craving ice;irritability;dizziness;sensitivity to sound;eye pain;one-sided headache;visual disturbances;neck pain
+Hypertension,swelling in feet;confusion;irregular heartbeat;anxiety;dizziness;blurred vision;indigestion
+Migraine,irritability;pulsating pain;one-sided headache;aura;muscle aches;chest pain;sensitivity to smell;dizziness;severe headache
+Asthma,chest discomfort;frequent respiratory infections;fatigue;swelling in feet;trouble sleeping;persistent cough;blue fingernails;restlessness;anxiety
+Urinary Tract Infection (UTI),prolonged high fever;low energy;fever;muscle pain;dark urine;pain during intercourse;frequent urination
+Migraine,rash;fever;sensitivity to light;headache;sensitivity to sound;scalp tenderness;speech difficulty;nausea;blurred vision;dizziness;lower abdominal pain;sensitivity to smell
+Urinary Tract Infection (UTI),dark urine;nausea;confusion (elderly);fatigue;thick nasal discharge;blood in urine;strong-smelling urine;cloudy urine;indigestion;pain during intercourse;swelling in feet;burning urination
+Tuberculosis,rapid heartbeat;dizziness;shoulder pain;facial swelling;weight changes;swollen glands;shortness of breath;pale skin;crackles in lungs;fatigue;frequent infections;prolonged cough
+Tuberculosis,fatigue;swollen glands;fever;prolonged cough;bitter mouth;pale skin;back pain;nausea;chest pain;persistent cough
+Anemia,forehead pain;weakness;cold hands;poor concentration;high blood pressure;pale skin;chest pain
+Tuberculosis,brittle nails;rapid heartbeat;joint pain;crackles in lungs;persistent cough;coughing blood;productive cough;loss of appetite;prolonged cough
+Gastritis,fullness;indigestion;aura;loss of appetite;black stool;upper stomach pain;sour taste;gastric discomfort;burning after eating
+Bronchitis,silent chest;chest discomfort;difficulty sleeping;runny nose;nasal congestion;fever;production of mucus;shortness of breath;rapid breathing
+Malaria,fatigue;thick nasal discharge;rapid heartbeat;isolation;vomiting;headache;anemia
+Migraine,nausea;dizziness;dry cough;sensitivity to smell;irritability;sensitivity to light
+Asthma,frequent respiratory infections;headache;nausea;trouble sleeping;blue fingernails;tight throat;lower abdominal pain
+Dengue,dizziness;chills;prolonged high fever;diarrhea;vomiting;fatigue;loss of appetite;bone pain;pain during intercourse
+Hypertension,fatigue;restless legs;chest pain;anxiety;sweating;vision changes;lightheadedness;dizziness;swelling in feet
+Hypertension,guilt;nosebleed;shortness of breath;nausea;confusion;anxiety;fatigue;throbbing head pain
+Gastritis,bloating;low oxygen levels;fatigue;indigestion;irritability;acid reflux;chest tightness
+Gastroenteritis,dizziness;tooth pain;fever;dry mouth;muscle aches;diarrhea;hopelessness;vomiting;abdominal cramps;stomach rumbling;fatigue
+Tuberculosis,blood in urine;swollen glands;chills;shoulder pain;productive cough;headache;shortness of breath;prolonged cough;dry cough;fatigue;joint pain
+Urinary Tract Infection (UTI),chest pain;dark urine;vomiting;difficulty exhaling;lower abdominal pain;hiccups;fatigue;urine urgency
+Diabetes,vision changes;sensitivity to smell;hunger;red eyes;skin infections;throbbing head pain;fatigue;blurred vision;irritability;tingling hands
+Gastritis,gastric discomfort;belching;indigestion;burning after eating;dry cough;sour taste;fatigue;fullness
+Depression,difficulty concentrating;chronic pain;loss of appetite;crackles in lungs;weight changes;suicidal thoughts;anxiety;sour taste;isolation
+Gastroenteritis,diarrhea;facial pain;back pain;dry mouth;loss of appetite;headache;unintended weight loss;fever;muscle aches;nausea
+Gastroenteritis,gas;mild fever;headache;fever;urgent bowel movements;sunken eyes;jaw pain;bloating;nausea;dry mouth;abdominal cramps
+Malaria,fever;fatigue;tearfulness;rapid heartbeat;nausea;back pain;shivering
+Urinary Tract Infection (UTI),gastric discomfort;dark urine;urine leakage;confusion (elderly);strong-smelling urine;pain during intercourse;blood in urine;urine urgency
+Gastritis,abdominal pain;lack of motivation;flatulence;gastric discomfort;heartburn;swollen glands;cough;fullness
+Hypertension,fatigue;confusion;blurred vision;headache;persistent cough;nosebleed;fever;increased thirst;heartburn;anxiety;palpitations;dizziness
+Anemia,anemia;forehead pain;dizziness;weakness;poor concentration;shortness of breath;flatulence
+Tuberculosis,dry cough;night sweats;prolonged cough;restlessness;shoulder pain;fatigue;shortness of breath;weakness;fever;wheezing;back pain
+Gastritis,bitter mouth;loss of taste;indigestion;craving ice;belching;fever;triggered by cold air;bloating;fatigue
+Anemia,poor concentration;chest pain;lethargy;facial swelling;low stamina;restless legs;pale skin;irritability
+Asthma,silent chest;gastric discomfort;confusion;headache;coughing at night;fatigue;anxiety;wheezing;pale lips;restlessness;rapid breathing;thick nasal discharge;persistent cough
+Migraine,dizziness;fatigue;irritability;persistent sadness;throbbing headache;high blood pressure;black stool;confusion
+Migraine,one-sided headache;neck pain;blurred vision;fever;dizziness;vomiting;gas
+Migraine,visual disturbances;pulsating pain;eye pain;irritability;speech difficulty;hunger;fatigue;low blood pressure;blurred vision;confusion;muscle aches
+Asthma,muscle aches;loss of appetite;dizziness;anxiety;blue fingernails;tight throat;frequent respiratory infections;mucus production;silent chest;low oxygen levels;shortness of breath;headache
+Depression,severe headache;hopelessness;fatigue;suicidal thoughts;difficulty concentrating;irritability
+Depression,fatigue;low energy;lack of motivation;isolation;tingling hands;chronic pain
+Diabetes,unintended weight loss;tingling hands;dry mouth;chest pain;dizziness;sweating;fever;blurred vision;sore throat
+Anemia,weakness;brittle nails;heartburn;numbness;fever;poor concentration;bad breath;lethargy
+Migraine,one-sided headache;low oxygen levels;aura;lightheadedness;sensitivity to smell;confusion;anemia;vomiting
+Anemia,brittle nails;cold hands;pale skin;craving ice;poor concentration;chills
+Anemia,numbness;low oxygen levels;poor concentration;headache;prolonged cough;dizziness;chest pain;facial flushing
+Migraine,hair thinning;sensitivity to sound;headache;pulsating pain;neck pain;irritability
+Diabetes,blurred vision;frequent urination;numbness;dizziness;difficulty exhaling;tooth pain;tingling hands
+Diabetes,numbness;blurred vision;slow healing wounds;unintended weight loss;dizziness;production of mucus;increased thirst;weight loss;fatigue;tingling hands
+Gastritis,belching;nausea;lethargy;bloating;heartburn;stomach burning;flatulence;loss of appetite;black stool
+Hypertension,cheek tenderness;nausea;palpitations;sweating;restlessness;buzzing in ears;trouble sleeping;chest pain;muscle soreness;fatigue;throbbing head pain
+Migraine,nausea;one-sided headache;fatigue;sensitivity to sound;sensitivity to smell;cold hands;scalp tenderness;incomplete emptying;neck pain;headache;pulsating pain;throbbing headache
+Tuberculosis,dizziness;headache;fatigue;pale skin;swollen glands;fever;joint pain;loss of taste;rapid heartbeat;persistent cough;back pain
+Gastroenteritis,lightheadedness;vomiting;fullness;headache;diarrhea;fatigue;craving ice;bloating;urgent bowel movements;weakness;stomach rumbling
+Diabetes,hunger;sunken eyes;tingling feet;vision changes;restlessness;irritability;trouble sleeping;dizziness;blurred vision;skin infections;nausea
+Gastritis,abdominal pain;fatigue;nausea;weight loss;loss of taste;heartburn;bitter mouth;indigestion
+Bronchitis,shortness of breath;blood in urine;difficulty sleeping;headache;dry cough;postnasal drip
+Dengue,low platelet count;joint pain;eye pain;lower back pain;fatigue;dizziness;loss of appetite;easy bruising
+Migraine,scalp tenderness;fatigue;buzzing in ears;nausea;blurred vision;irritability;pulsating pain;headache;confusion
+Tuberculosis,bad breath;productive cough;weight loss;fatigue;night sweats;dizziness;crackles in lungs;fever;prolonged cough;rash;joint pain
+Migraine,pulsating pain;dizziness;neck pain;scalp tenderness;throbbing headache;difficulty concentrating;fatigue;confusion;eye pain
+Gastroenteritis,dehydration;gas;sunken eyes;chills;lightheadedness;fatigue;nosebleed
+Gastritis,black stool;sour taste;cough;stomach burning;acid reflux;dizziness
+Dengue,eye pain;nausea;low platelet count;bleeding gums;dizziness;joint pain;high blood pressure;swollen glands
+Tuberculosis,loss of appetite;coughing blood;fatigue;swollen glands;productive cough;weakness;headache;fever;thick nasal discharge
+Bronchitis,production of mucus;muscle soreness;chest discomfort;fatigue;sinus pressure;flatulence;fever;shortness of breath;runny nose
+Diabetes,anxiety;headache;tingling hands;slow healing wounds;fatigue;difficulty exhaling;hunger;dark skin patches
+Gastritis,dizziness;black stool;loss of interest;bloating;vomiting;gastric discomfort;heartburn;loss of appetite;confusion;headache;acid reflux
+Hypertension,severe headache;fatigue;throbbing head pain;headache;blurred vision;sweating;nausea
+Bronchitis,body aches;rapid breathing;production of mucus;fever;chills;breathlessness;nasal congestion;headache;runny nose;pelvic pain;tight chest;lack of motivation
+Dengue,bleeding gums;nausea;easy bruising;low platelet count;dizziness;blurred vision;severe headache;prolonged high fever
+Migraine,sensitivity to light;fever;neck pain;vomiting;fatigue;hiccups;chest pain;sore throat;nausea;one-sided headache;aura;scalp tenderness;visual disturbances
+Malaria,headache;loss of appetite;sweating;back pain;abdominal pain;rash;anemia;dizziness;confusion
+Malaria,jaundice;pale skin;fatigue;nausea;headache;rapid heartbeat
+Anemia,fever;pressure in bladder;low stamina;cold hands;fatigue;yellowish skin;pale skin;throbbing headache;brittle nails;blurred vision
+Bronchitis,difficulty sleeping;chills;nausea;chronic pain;chest discomfort;sore throat;cloudy urine;fatigue;headache;insomnia;body aches;postnasal drip
+Asthma,burning urination;persistent cough;headache;breathlessness;low oxygen levels;rapid breathing;mucus production;restlessness;coughing at night
+Sinusitis,fever;forehead pain;bad breath;fatigue;headache;runny nose;watery eyes;postnasal drip;productive cough;urine urgency;tooth pain
+Sinusitis,watery eyes;bad breath;dry mouth;temperature fluctuations;dizziness;forehead pain;tooth pain;sour taste;wheezing;facial pain;headache;eye puffiness
+Urinary Tract Infection (UTI),vomiting;lower back pain;urine urgency;nausea;dark urine;cloudy urine;cheek tenderness;incomplete emptying
+Depression,fatigue;memory issues;hopelessness;dizziness;sleep disturbances;blue fingernails;weight changes;loss of interest;loss of appetite;pressure in bladder
+Gastritis,flatulence;gastric discomfort;hiccups;nausea;vomiting;stomach burning;acid reflux;indigestion;frequent respiratory infections
+Depression,slowed thinking;lack of motivation;chronic pain;fever;difficulty concentrating;social withdrawal;loss of interest;mild fever;dizziness;persistent sadness;feelings of worthlessness
+Bronchitis,sore throat;persistent cough;chills;chest discomfort;wheezing;nosebleed;tight chest;fatigue;fever;watery eyes
+Malaria,fullness;irregular heartbeat;shivering;loss of appetite;muscle pain;headache;fever
+Gastroenteritis,headache;fatigue;nausea;diarrhea;abdominal cramps;dehydration;difficulty sleeping;sunken eyes;speech difficulty;bloating
+Anemia,pale skin;low oxygen levels;brittle nails;restless legs;hopelessness;fatigue;numbness;chest pain;weakness
+Sinusitis,nasal congestion;eye puffiness;fever;bitter mouth;dry mouth;fatigue;watery eyes;sour taste
+Asthma,abdominal cramps;nasal congestion;triggered by cold air;anxiety;blue fingernails;mucus production
+Bronchitis,sinus pressure;body aches;urine leakage;fatigue;buzzing in ears;headache;difficulty sleeping
+Anemia,hair thinning;pale gums;brittle nails;lightheadedness;chest pain;fever;yellowish skin;fatigue;poor concentration;rapid breathing
+Depression,throbbing headache;headache;low energy;slowed thinking;feelings of worthlessness;tingling hands;restlessness;difficulty exhaling;chronic pain;anxiety
+Anemia,craving ice;wheezing;lightheadedness;lethargy;dizziness;pale skin;headache
+Dengue,loss of appetite;prolonged high fever;dizziness;dry mouth;nausea;hunger;easy bruising
+Dengue,dizziness;vomiting;swollen glands;rash;bad breath;eye pain;headache;bone pain;brittle nails;prolonged high fever;speech difficulty
+Depression,dizziness;fever;persistent sadness;anxiety;low energy;chronic pain;brittle nails
+Gastritis,stomach burning;headache;nausea;chronic pain;tingling feet;fatigue;fullness
+Gastritis,loss of appetite;guilt;headache;abdominal pain;vomiting;postnasal drip;acid reflux;fatigue;heartburn
+Diabetes,blurred vision;nausea;sensitivity to smell;low stamina;sensitivity to sound;headache;tingling hands;hunger;tingling feet
+Anemia,difficulty exhaling;headache;cold hands;pale skin;low stamina;chest pain;numbness;yellowish skin;shortness of breath
+Bronchitis,dry cough;watery eyes;wheezing;frequent urination;difficulty sleeping;sinus pressure
+Gastritis,black stool;flatulence;abdominal pain;mucus production;nausea;indigestion;fullness;belching;swelling in feet;stomach burning;fatigue
+Anemia,restless legs;fast heartbeat;hair thinning;coughing at night;chest pain;dizziness;frequent urination;irritability;tight chest;shortness of breath;fever;headache;weakness
+Sinusitis,thick nasal discharge;dry mouth;bad breath;fever;sinus pressure;watery eyes;headache;craving ice;sensitivity to sound;weakness
+Dengue,severe headache;fatigue;nosebleed;eye pain;loss of appetite;chills;muscle pain;blood in urine
+Anemia,low stamina;pale gums;dizziness;irregular heartbeat;flatulence;chest pain;headache
+Migraine,eye pain;restless legs;dizziness;blurred vision;neck pain;scalp tenderness;fatigue
+Gastroenteritis,diarrhea;headache;muscle aches;dry mouth;cloudy urine
+Migraine,sleep disturbances;sensitivity to sound;nausea;visual disturbances;dizziness;eye pain;vomiting
+Dengue,muscle pain;rash;bone pain;easy bruising;black stool;diarrhea;nausea
+Hypertension,weakness;chest pain;confusion;nosebleed;swelling in feet;speech difficulty;poor concentration;anxiety;restlessness;facial flushing
+Tuberculosis,swollen glands;shoulder pain;back pain;rapid heartbeat;nausea;shortness of breath;weight loss;neck pain;wheezing;fatigue
+Depression,feelings of worthlessness;social withdrawal;weight changes;abdominal cramps;suicidal thoughts;guilt;loss of interest;loss of appetite
+Asthma,blue fingernails;throbbing head pain;chest tightness;wheezing;persistent cough;rapid breathing;frequent respiratory infections;difficulty exhaling;shortness of breath
+Malaria,anemia;back pain;night sweats;jaundice;sweating;fever;muscle pain;production of mucus;dizziness;triggered by cold air;dark urine
+Tuberculosis,brittle nails;night sweats;wheezing;urine leakage;fever;persistent cough;dizziness;pale skin;low energy;prolonged cough
+Urinary Tract Infection (UTI),strong-smelling urine;urine urgency;pressure in bladder;low platelet count;incomplete emptying;headache;muscle pain;lower back pain
+Sinusitis,facial pain;dry mouth;sinus pressure;nausea;blurred thinking;nosebleed;forehead pain;headache;fever;thick nasal discharge;jaw pain;loss of smell
+Migraine,dizziness;headache;nausea;pulsating pain;slowed thinking;difficulty concentrating;sensitivity to light;irritability;mood changes;confusion;eye pain
+Sinusitis,sinus pressure;headache;forehead pain;tingling feet;brittle nails;fever;facial pain;loss of smell
+Depression,hopelessness;chronic pain;tearfulness;nausea;dizziness;lack of motivation;shoulder pain
+Diabetes,slow healing wounds;weakness;increased thirst;fatigue;hunger;irritability
+Gastroenteritis,diarrhea;craving ice;loss of smell;urgent bowel movements;fever;guilt;loss of appetite;gas;headache
+Gastroenteritis,urine urgency;weakness;bloating;diarrhea;sunken eyes;dehydration;abdominal cramps;fatigue;dizziness
+Bronchitis,chest discomfort;runny nose;chest pain;production of mucus;nasal congestion;chills;headache;shortness of breath;fatigue;fever;wheezing
+Asthma,mucus production;productive cough;breathlessness;fatigue;pale lips;persistent cough;chest discomfort;headache;chest tightness;silent chest;restless legs
+Malaria,headache;body aches;mucus production;night sweats;anemia;jaundice;chills;temperature fluctuations;rapid heartbeat;brittle nails
+Depression,isolation;flatulence;dizziness;body aches;restlessness;tingling feet;sleep disturbances;weight changes
+Urinary Tract Infection (UTI),shoulder pain;urine leakage;dark urine;pain during intercourse;fever;slowed thinking;cloudy urine;strong-smelling urine
+Hypertension,nausea;headache;palpitations;bad breath;lightheadedness;swelling in feet;muscle soreness;dizziness
+Sinusitis,dry mouth;fatigue;headache;postnasal drip;urine urgency;dizziness;indigestion
+Malaria,scalp tenderness;dark urine;rash;sweating;nausea;difficulty concentrating;fever;back pain;headache;temperature fluctuations;vomiting
+Gastroenteritis,lightheadedness;stomach rumbling;frequent urination;dehydration;bloating;headache
+Hypertension,throbbing headache;swollen glands;palpitations;diarrhea;facial flushing;throbbing head pain;high blood pressure;blurred vision
+Malaria,easy bruising;fatigue;nausea;muscle pain;jaundice;rapid heartbeat;fever
+Bronchitis,dizziness;gas;wheezing;fatigue;hoarseness;chills;body aches;yellowish skin;nasal congestion;runny nose
+Gastroenteritis,chronic pain;sunken eyes;fever;hunger;bad breath;dehydration;mild fever;chills;bloating
+Asthma,pale lips;swollen glands;chest tightness;lack of motivation;breathlessness;coughing at night;silent chest;restlessness;dizziness;blue fingernails;fatigue
+Bronchitis,body aches;headache;hoarseness;weakness;shortness of breath
+Sinusitis,runny nose;fever;watery eyes;postnasal drip;bad breath;fatigue;night sweats;mood changes;facial swelling
+Diabetes,pressure in bladder;blurred thinking;indigestion;hopelessness;dizziness;fatigue;tingling hands;irritability
+Dengue,chills;swollen glands;joint pain;pressure in bladder;throat irritation;bleeding gums;prolonged high fever;difficulty exhaling;abdominal pain;eye pain
+Dengue,abdominal pain;neck pain;upper stomach pain;dizziness;severe headache;red eyes;bleeding gums;chills;fatigue
+Hypertension,vision changes;fever;throbbing head pain;fatigue;swelling in feet;anxiety;insomnia;restlessness;sunken eyes;sweating
+Dengue,red eyes;fatigue;nausea;loss of appetite;difficulty concentrating;tight throat;headache;prolonged high fever
+Malaria,gas;abdominal pain;temperature fluctuations;fatigue;jaundice;body aches;shivering
+Depression,difficulty concentrating;lower back pain;tearfulness;dizziness;hopelessness;guilt;lack of motivation
+Hypertension,restlessness;palpitations;sweating;irregular heartbeat;low stamina;facial flushing;nosebleed;blurred vision;one-sided headache
+Gastroenteritis,difficulty exhaling;watery eyes;dry mouth;gas;loss of appetite;diarrhea;blood in urine;fatigue;weakness;abdominal cramps
+Urinary Tract Infection (UTI),frequent urination;fever;dark urine;confusion (elderly);difficulty exhaling;lower abdominal pain;eye puffiness;low energy
+Bronchitis,mood changes;chills;sore throat;production of mucus;muscle soreness;fever
+Tuberculosis,loss of appetite;rapid heartbeat;sore throat;fatigue;pale skin;weakness
+Sinusitis,bad breath;jaw pain;sensitivity to sound;ear pressure;cheek tenderness;facial pain;tooth pain;fever;postnasal drip;neck pain
+Malaria,muscle pain;jaw pain;jaundice;fatigue;coughing blood;temperature fluctuations;dizziness;abdominal pain;anemia;vomiting;low blood pressure
+Diabetes,hunger;mucus production;difficulty sleeping;unintended weight loss;frequent urination;frequent infections;tingling hands;dry mouth;slow healing wounds
+Asthma,frequent respiratory infections;indigestion;cheek tenderness;blue fingernails;breathlessness;silent chest;chest discomfort;rapid breathing;headache;pale lips;anxiety
+Dengue,bleeding gums;chills;back pain;red eyes;chest pain;bone pain;vomiting
+Gastroenteritis,abdominal cramps;fatigue;muscle aches;diarrhea;vomiting;nausea;bitter mouth;poor concentration
+Tuberculosis,headache;blue fingernails;productive cough;fatigue;persistent cough;confusion;fever;joint pain
+Diabetes,headache;numbness;increased thirst;swelling in feet;hunger;frequent urination;unintended weight loss;sweet-smelling breath;skin infections;aura
+Anemia,brittle nails;poor concentration;fever;craving ice;jaw pain;weakness
+Gastroenteritis,diarrhea;vomiting;aura;fatigue;sunken eyes;muscle aches;headache;brittle nails
+Sinusitis,persistent cough;sinus pressure;fatigue;tooth pain;cheek tenderness;ear pressure;thick nasal discharge;bad breath;nausea;jaw pain;eye puffiness
+Depression,loss of interest;guilt;suicidal thoughts;hopelessness;burning after eating;tearfulness;restlessness;lack of motivation
+Sinusitis,runny nose;sinus pressure;increased thirst;headache;fever
+Asthma,tight throat;fatigue;fever;body aches;low oxygen levels;breathlessness;triggered by cold air;shortness of breath;coughing at night;vomiting;dry cough
+Bronchitis,loss of taste;chest pain;chills;shortness of breath;sinus pressure;high blood pressure;sore throat
+Urinary Tract Infection (UTI),chills;vomiting;lower abdominal pain;strong-smelling urine;ear pressure;cloudy urine;back pain;frequent urination;blood in urine;urine leakage
+Bronchitis,body aches;high blood pressure;rapid breathing;shortness of breath;throat irritation;fever;dizziness
+Anemia,lethargy;weakness;blurred thinking;nausea;lightheadedness;chest pain;yellowish skin;fast heartbeat;headache;fatigue
+Asthma,forehead pain;fever;dizziness;mucus production;shivering;nasal congestion;pale lips;coughing at night
+Diabetes,irritability;upper stomach pain;frequent urination;dizziness;tingling hands;unintended weight loss;blurred vision;pelvic pain;pale gums
+Migraine,headache;throbbing headache;dry mouth;jaw pain;high blood pressure;one-sided headache;scalp tenderness;neck pain;speech difficulty;irritability
+Dengue,bone pain;mood changes;dry mouth;nausea;frequent respiratory infections;easy bruising;swollen glands;watery eyes;muscle pain;prolonged high fever;headache;red eyes
+Urinary Tract Infection (UTI),dark urine;confusion (elderly);urine leakage;nausea;flatulence;muscle pain;vomiting;lower back pain;pain during intercourse;pressure in bladder;visual disturbances
+Urinary Tract Infection (UTI),cloudy urine;pelvic pain;pressure in bladder;vomiting;difficulty concentrating;lightheadedness
+Asthma,difficulty exhaling;fever;frequent infections;mucus production;chest discomfort;chest tightness;dizziness;frequent respiratory infections;anxiety;tight throat
+Depression,low energy;nausea;lack of motivation;slowed thinking;difficulty concentrating;feelings of worthlessness;confusion (elderly)
+Gastroenteritis,severe headache;sunken eyes;bloating;mild fever;urgent bowel movements
+Anemia,hair thinning;dizziness;fast heartbeat;dry mouth;fatigue;pale skin;headache;cold hands;numbness;low oxygen levels;irritability
+Dengue,eye pain;dizziness;nosebleed;postnasal drip;vomiting;fever;joint pain
+Tuberculosis,crackles in lungs;sensitivity to smell;productive cough;runny nose;chest pain;swollen glands;joint pain;wheezing;nausea
+Depression,difficulty concentrating;loss of interest;weight changes;memory issues;headache;hopelessness;triggered by cold air
+Gastroenteritis,feelings of worthlessness;stomach rumbling;nausea;blurred vision;dark urine;diarrhea;dehydration;dry mouth;lightheadedness;mild fever
+Dengue,nosebleed;bleeding gums;tooth pain;fatigue;rash;joint pain;red eyes;bone pain;strong-smelling urine;heartburn;easy bruising;headache
+Anemia,joint pain;lethargy;numbness;pale skin;restless legs;fatigue;stomach burning
+Migraine,vomiting;confusion;speech difficulty;irritability;eye pain;gastric discomfort;belching;blurred vision;dizziness
+Sinusitis,urgent bowel movements;dry mouth;nasal congestion;hoarseness;facial swelling;mild fever;dizziness;pale lips;thick nasal discharge
+Sinusitis,loss of smell;jaw pain;watery eyes;fever;irregular heartbeat;cough;headache;confusion (elderly);tight throat;nasal congestion
+Gastroenteritis,dry mouth;fatigue;productive cough;urgent bowel movements;difficulty exhaling;sinus pressure;stomach rumbling;bloating;weakness;headache
+Malaria,weight changes;chills;night sweats;headache;rapid heartbeat;fever;dizziness;hopelessness;temperature fluctuations;vomiting;confusion
+Asthma,fatigue;chest tightness;restlessness;low oxygen levels;wheezing;chronic pain;coughing at night;tight throat;pelvic pain;facial swelling;silent chest
+Dengue,nausea;fatigue;muscle pain;nosebleed;fever;dizziness;dry mouth;pale gums;bleeding gums;low platelet count;loss of appetite
+Sinusitis,gas;dehydration;dizziness;fever;loss of interest;forehead pain;cough;tooth pain
+Diabetes,nausea;back pain;sensitivity to light;vision changes;chest discomfort;blurred vision;frequent infections;dizziness;sweet-smelling breath
+Urinary Tract Infection (UTI),burning urination;nausea;sunken eyes;strong-smelling urine;incomplete emptying;pain during intercourse
+Hypertension,nausea;swelling in feet;high blood pressure;chest pain;insomnia;blurred vision;dizziness;fatigue;throbbing head pain;prolonged cough;vision changes
+Dengue,runny nose;dry mouth;dry cough;nausea;fatigue;muscle pain;severe headache;social withdrawal
+Tuberculosis,temperature fluctuations;unintended weight loss;persistent cough;body aches;fatigue;joint pain;back pain;dry cough;loss of appetite
+Dengue,low platelet count;difficulty concentrating;dizziness;diarrhea;dry mouth;prolonged high fever;muscle pain;joint pain;loss of appetite
+Sinusitis,brittle nails;loss of smell;nasal congestion;anemia;eye puffiness;sweating;fever;headache;ear pressure
+Depression,lethargy;loss of appetite;guilt;fever;anxiety;fatigue;hiccups;isolation;yellowish skin;loss of interest;social withdrawal
+Gastroenteritis,mild fever;diarrhea;headache;hunger;dry mouth;chills;fatigue;fever
+Tuberculosis,cloudy urine;coughing at night;night sweats;fever;joint pain;shoulder pain;crackles in lungs;back pain;weakness;swollen glands;nausea;dizziness
+Bronchitis,dizziness;fever;sinus pressure;shortness of breath;headache;chills;muscle soreness;memory issues
+Gastritis,dizziness;fatigue;indigestion;flatulence;upper stomach pain;urine leakage;loss of taste;acid reflux;chest tightness;sour taste
+Tuberculosis,rapid heartbeat;fatigue;night sweats;crackles in lungs;nasal congestion;back pain;fever;swollen glands;chills;weight loss;stomach rumbling
+Malaria,fatigue;back pain;nausea;vomiting;poor concentration;headache;fever;night sweats;ear pressure;anemia;low oxygen levels
+Diabetes,sweet-smelling breath;vision changes;skin infections;tingling hands;frequent urination;fatigue;vomiting;fever
+Hypertension,chest pain;trouble sleeping;lightheadedness;dizziness;swelling in feet;throbbing head pain;nosebleed
+Urinary Tract Infection (UTI),dizziness;lower back pain;blood in urine;lightheadedness;confusion (elderly);pain during intercourse;nasal congestion;urine leakage;chills;rapid breathing
+Bronchitis,rapid breathing;dizziness;throat irritation;runny nose;rash;postnasal drip;body aches;headache;chills
+Diabetes,breathlessness;skin infections;vision changes;dark skin patches;increased thirst;tingling hands;fatigue;fever
+Anemia,fast heartbeat;lightheadedness;pale gums;cold hands;dizziness;brittle nails;irritability;bleeding gums;forehead pain;coughing blood;craving ice;nausea
+Hypertension,throbbing headache;lightheadedness;anxiety;facial flushing;fatigue;throbbing head pain
+Urinary Tract Infection (UTI),pain during intercourse;blurred vision;nausea;blood in urine;pressure in bladder;strong-smelling urine;vomiting;pelvic pain
+Migraine,one-sided headache;eye pain;neck pain;fatigue;mood changes;irritability;sensitivity to smell;pale lips;sensitivity to sound;aura
+Sinusitis,fatigue;loss of smell;facial pain;forehead pain;hoarseness;insomnia;sinus pressure;back pain;isolation
+Gastroenteritis,urine urgency;diarrhea;vomiting;silent chest;watery eyes;dry mouth;nausea;weakness;abdominal cramps;stomach rumbling
+Hypertension,dizziness;sweating;nosebleed;production of mucus;headache;strong-smelling urine;vision changes;throbbing head pain;anxiety;lightheadedness
+Urinary Tract Infection (UTI),chills;incomplete emptying;fever;strong-smelling urine;weakness;confusion (elderly)
+Malaria,temperature fluctuations;urine urgency;abdominal pain;gas;sweating;vomiting;sensitivity to sound;fatigue;night sweats;confusion;body aches
+Diabetes,dark skin patches;tingling hands;hunger;blurred vision;skin infections;dry mouth;increased thirst;weight loss;vision changes
+Hypertension,shortness of breath;headache;lightheadedness;pulsating pain;confusion;fatigue;irregular heartbeat;flatulence
+Depression,buzzing in ears;feelings of worthlessness;chronic pain;restlessness;persistent sadness;dehydration;fatigue;tearfulness;tooth pain
+Asthma,anxiety;triggered by cold air;mood changes;pale lips;chest tightness;facial swelling;persistent cough;loss of taste;nausea
+Bronchitis,postnasal drip;chest discomfort;temperature fluctuations;persistent cough;sore throat;dry cough;back pain;headache;fast heartbeat;muscle soreness;fatigue
+Asthma,blue fingernails;mucus production;silent chest;sensitivity to sound;chest discomfort;difficulty exhaling;fatigue;low oxygen levels;persistent cough
+Malaria,blood in urine;muscle pain;fatigue;vomiting;anemia;loss of appetite;abdominal pain;back pain;nausea;rapid heartbeat
+Urinary Tract Infection (UTI),tooth pain;fever;frequent urination;confusion (elderly);urine urgency;pressure in bladder;nausea;urine leakage;fatigue
+Urinary Tract Infection (UTI),frequent urination;unintended weight loss;hopelessness;chills;vomiting;confusion (elderly);lower abdominal pain;hoarseness
+Gastritis,loss of appetite;fatigue;upper stomach pain;black stool;muscle aches;poor concentration;hiccups;sour taste;blurred thinking;bloating;burning after eating;belching
+Gastritis,indigestion;acid reflux;upper stomach pain;bloating;belching;fullness;burning after eating;sensitivity to light;gastric discomfort
+Asthma,unintended weight loss;tight throat;fever;rapid breathing;anxiety;memory issues;nausea;triggered by cold air;low oxygen levels;fast heartbeat
+Gastritis,fever;flatulence;burning after eating;headache;hiccups;abdominal pain;insomnia;bloating;upper stomach pain;numbness;throat irritation
+Depression,low energy;memory issues;hopelessness;slowed thinking;feelings of worthlessness;indigestion;loss of interest
+Urinary Tract Infection (UTI),frequent urination;urine leakage;pressure in bladder;fatigue;facial flushing;strong-smelling urine;nausea;abdominal cramps
+Urinary Tract Infection (UTI),facial swelling;lower abdominal pain;fever;nausea;urine urgency;lower back pain;pelvic pain;urine leakage;confusion (elderly)
+Tuberculosis,pale skin;heartburn;chills;headache;weakness;difficulty sleeping;fatigue;back pain;dry cough;swollen glands;shoulder pain;fever
+Malaria,body aches;fever;headache;low blood pressure;jaw pain;rapid heartbeat;dizziness
+Diabetes,sweet-smelling breath;increased thirst;dry cough;blurred thinking;fever;headache;tingling feet
+Depression,restlessness;loss of appetite;guilt;tearfulness;persistent sadness;swelling in feet;fatigue;low energy;sleep disturbances
+Dengue,dizziness;nausea;abdominal pain;diarrhea;red eyes;bloating;swollen glands;high blood pressure;dehydration
+Gastritis,abdominal pain;flatulence;upper stomach pain;bloating;belching;black stool;weakness;fullness
+Malaria,neck pain;vomiting;shivering;muscle pain;confusion;fast heartbeat
+Bronchitis,headache;sensitivity to light;fatigue;chills;hoarseness;shortness of breath;sore throat;tight chest;memory issues;runny nose
+Anemia,pale gums;fatigue;low platelet count;dizziness;headache;cold hands;fast heartbeat;brittle nails;tight throat;tooth pain
+Bronchitis,sinus pressure;throat irritation;nasal congestion;fever;swollen glands;hoarseness;headache;tight chest;buzzing in ears;rapid breathing
+Hypertension,sensitivity to sound;headache;shortness of breath;productive cough;restlessness;coughing at night;irregular heartbeat
+Migraine,throbbing headache;blurred vision;dizziness;one-sided headache;sensitivity to sound;urgent bowel movements;vomiting
+Sinusitis,pale skin;hoarseness;blue fingernails;facial swelling;headache;fatigue;jaw pain;nasal congestion
+Anemia,restless legs;easy bruising;fever;fatigue;cold hands;shortness of breath;weakness
+Asthma,headache;rapid breathing;chest discomfort;fast heartbeat;tight throat;chest tightness;nasal congestion
+Diabetes,numbness;headache;skin infections;sweet-smelling breath;dizziness;vision changes;frequent urination;dry mouth;mood changes;feelings of worthlessness
+Gastritis,stomach burning;hoarseness;loss of taste;indigestion;upper stomach pain;cloudy urine;unintended weight loss
+Migraine,aura;vomiting;pulsating pain;coughing blood;throbbing headache;prolonged high fever;fatigue;nausea;frequent urination;irritability;dizziness
+Hypertension,isolation;swelling in feet;nosebleed;bitter mouth;headache;nausea;shortness of breath;hunger;fatigue;confusion;irregular heartbeat
+Dengue,vision changes;dizziness;chills;dry mouth;bleeding gums;muscle pain;fatigue;nausea;eye pain;swollen glands
+Hypertension,chest pain;vision changes;shortness of breath;palpitations;dizziness;mucus production;high blood pressure
