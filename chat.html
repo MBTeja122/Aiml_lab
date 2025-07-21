@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MediBot - AI Health Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(-45deg, #4f46e5, #14b8a6, #7c3aed, #38bdf8);
+      background-size: 400% 400%;
+      animation: bgMove 18s ease infinite;
+    }
+
+    @keyframes bgMove {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 4px 40px rgba(0, 0, 0, 0.15);
+      border-radius: 1.5rem;
+      position: relative;
+    }
+
+    .glow {
+      box-shadow: 0 0 12px #38bdf8, 0 0 18px #6366f1, 0 0 24px #8b5cf6;
+    }
+
+    .typing-dots div {
+      width: 6px;
+      height: 6px;
+      margin: 0 2px;
+      background-color: #bae6fd;
+      border-radius: 50%;
+      animation: typing 1s infinite ease-in-out;
+    }
+
+    .typing-dots div:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dots div:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes typing {
+      0%, 80%, 100% { transform: scale(0.8); opacity: 0.4; }
+      40% { transform: scale(1.4); opacity: 1; }
+    }
+
+    .fade-out {
+      animation: fadeOut 1s ease forwards;
+    }
+
+    @keyframes fadeOut {
+      to { opacity: 0; transform: translateY(-10px); }
+    }
+
+    .animate-fadeInScale {
+      animation: fadeInScale 0.3s ease-in-out;
+    }
+
+    @keyframes fadeInScale {
+      0% { opacity: 0; transform: scale(0.95); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .shimmer-processing {
+      background: linear-gradient(120deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.05) 100%);
+      background-size: 200% 100%;
+      animation: shimmerAnim 2s infinite;
+    }
+
+    @keyframes shimmerAnim {
+      0% { background-position: -100% 0; }
+      100% { background-position: 100% 0; }
+    }
+
+    .side-orb {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #a5f3fc 0%, #4f46e5 80%);
+      opacity: 0.3;
+      animation: pulseOrb 6s infinite ease-in-out;
+      z-index: 0;
+    }
+
+    .side-orb.right {
+      top: 40%;
+      right: -40px;
+    }
+
+    .side-orb.left {
+      bottom: 10%;
+      left: -40px;
+      animation-delay: 3s;
+    }
+
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1); opacity: 0.3; }
+      50% { transform: scale(1.4); opacity: 0.5; }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 font-sans text-white relative">
+
+  <div class="w-full max-w-3xl h-[90vh] glass-card flex flex-col overflow-hidden animate-fadeInScale z-10">
+    <!-- Header -->
+    <header class="text-center p-6 border-b border-white/20">
+      <h1 class="text-4xl font-bold drop-shadow-lg tracking-wide text-cyan-100"> MediBot</h1>
+      <p id="welcome" class="text-sm text-cyan-200 mt-1 transition-opacity">Welcome! I’m here to help you understand your symptoms.</p>
+    </header>
+
+    <!-- Chat -->
+    <main id="chat-box" class="flex-1 overflow-y-auto p-6 space-y-4 text-sm scroll-smooth relative transition-all duration-300">
+      <!-- Messages appear here -->
+    </main>
+
+    <!-- Typing -->
+    <div id="typing" class="hidden px-6 pb-3 text-sm text-cyan-300">
+      <div class="flex items-center gap-2">
+        <div class="text-xl"></div>
+        <div class="typing-dots flex items-center"><div></div><div></div><div></div></div>
+      </div>
+    </div>
+
+    <!-- Input -->
+    <section class="p-4 border-t border-white/20">
+      <div class="flex items-center gap-3">
+        <div class="flex-1 relative">
+          <input id="message" type="text"
+            class="w-full px-5 py-3 rounded-full bg-white/10 border border-cyan-300 text-white placeholder-cyan-100 focus:outline-none focus:ring-2 focus:ring-cyan-400 shadow-inner backdrop-blur-md"
+            placeholder="Describe your symptoms..." autocomplete="off" />
+        </div>
+        <button id="send-btn"
+          class="px-5 py-3 rounded-full glow bg-gradient-to-r from-cyan-400 to-indigo-500 hover:from-cyan-500 hover:to-indigo-600 text-white font-bold transition duration-200">
+          ➤
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-xs text-center text-cyan-200 p-2 border-t border-white/10">
+      MediBot · Flask + SBERT
+    </footer>
+  </div>
+
+  <!-- Side Animations -->
+  <div class="side-orb right"></div>
+  <div class="side-orb left"></div>
+
+<script>
+  const chatBox = document.getElementById("chat-box");
+  const messageInput = document.getElementById("message");
+  const sendBtn = document.getElementById("send-btn");
+  const typingIndicator = document.getElementById("typing");
+  const welcome = document.getElementById("welcome");
+
+  window.onload = () => {
+    messageInput.focus();
+    setTimeout(() => {
+      welcome.classList.add("fade-out");
+      setTimeout(() => welcome.remove(), 1000);
+    }, 4000);
+  };
+
+  function showTyping() {
+    typingIndicator.classList.remove("hidden");
+    chatBox.classList.add("shimmer-processing");
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+
+  function hideTyping() {
+    typingIndicator.classList.add("hidden");
+    chatBox.classList.remove("shimmer-processing");
+  }
+
+  function addMessage(text, role) {
+    const wrapper = document.createElement("div");
+    wrapper.className = `flex ${role === "user" ? "justify-end" : "justify-start"} animate-fadeInScale`;
+
+    const bubble = document.createElement("div");
+    bubble.className = `px-4 py-3 rounded-2xl shadow max-w-[75%] ${
+      role === "user"
+        ? "bg-cyan-200 text-black"
+        : "bg-white/90 text-gray-900 border border-indigo-100"
+    }`;
+    bubble.innerHTML = text;
+
+    wrapper.appendChild(bubble);
+    chatBox.appendChild(wrapper);
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+
+  async function sendMessage() {
+    const text = messageInput.value.trim();
+    if (!text) return;
+
+    addMessage(text, "user");
+    messageInput.value = "";
+    showTyping();
+
+    try {
+      const res = await fetch("{{ url_for('predict') }}", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text })
+      });
+
+      const data = await res.json();
+      hideTyping();
+
+      if (data.type === "intent") {
+        addMessage(`<b>Intent Detected:</b> ${data.intent}<br>${data.response}`, "bot");
+
+      } else if (data.type === "disease") {
+        addMessage(`<div class="bg-cyan-100 text-gray-900 p-3 rounded-xl"><b>Disease:</b> ${data.disease}</div>`, "bot");
+
+        addMessage(`<div class="bg-blue-100 text-gray-900 p-3 rounded-xl"><b>Description:</b><br>${data.description}</div>`, "bot");
+
+        const tipsList = data.tips.map(tip => `<li>${tip}</li>`).join("");
+        addMessage(`<div class="bg-indigo-100 text-gray-900 p-3 rounded-xl"><b>Advice:</b><ul class="list-disc pl-5 mt-1">${tipsList}</ul></div>`, "bot");
+
+      } else {
+        addMessage(data.response || "Something went wrong.", "bot");
+      }
+
+    } catch (err) {
+      hideTyping();
+      addMessage("Server error. Please try again later.", "bot");
+    }
+  }
+
+  sendBtn.onclick = sendMessage;
+  messageInput.addEventListener("keypress", e => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  });
+</script>
+
+</body>
+</html>

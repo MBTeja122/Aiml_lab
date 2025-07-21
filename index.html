@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome to MediBot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(-45deg, #3b82f6, #06b6d4, #7c3aed, #4f46e5);
+      background-size: 400% 400%;
+      animation: gradientMove 14s ease infinite;
+    }
+
+    @keyframes gradientMove {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .text-shadow {
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .welcome-animation {
+      animation: floatIn 2s ease-out, pulseGlow 4s infinite ease-in-out;
+    }
+
+    @keyframes floatIn {
+      0% { opacity: 0; transform: translateY(20px) scale(0.95); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { text-shadow: 0 0 5px rgba(255,255,255,0.2); }
+      50% { text-shadow: 0 0 15px rgba(255,255,255,0.6); }
+    }
+
+    .btn-glow {
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
+    }
+
+    .btn-glow:hover {
+      box-shadow: 0 0 18px rgba(56, 189, 248, 0.6), 0 0 6px rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen text-white text-center px-6 font-sans">
+
+  <div class="max-w-2xl p-10 glass rounded-2xl shadow-2xl">
+    <h1 class="text-5xl font-bold mb-4 welcome-animation text-shadow drop-shadow-lg">Welcome to MediBot</h1>
+    <p class="text-lg mb-6 text-blue-100 text-shadow">
+      
+    </p>
+    <ul class="text-lg mb-6 text-blue-100 text-shadow">
+      <li>MediBot is your AI health companion powered by SBERT</li>
+      <li>Understands natural language descriptions</li>
+      <li>Combines intent detection with rule-based logic</li>
+    </ul>
+    <a href="{{ url_for('chat') }}">
+      <button class="mt-4 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full text-lg font-semibold btn-glow">
+        🚀 Get Started
+      </button>
+    </a>
+  </div>
+
+</body>
+</html>
